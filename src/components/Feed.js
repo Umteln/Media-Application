@@ -21,8 +21,6 @@ const Feed = () => {
 		});
 	}, [selectedCategory, selectedID]);
 
-	console.log(videos);
-
 	return (
 		<Stack
 			className='svg-back'
@@ -77,6 +75,7 @@ const Feed = () => {
 					</>
 				)}
 				{selectedCategory === 'Home' && <About />}
+				{!selectedCategory && <About />}
 			</Box>
 		</Stack>
 	);
