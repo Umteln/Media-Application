@@ -1,27 +1,17 @@
-import {
-	Box,
-	Container,
-	Typography,
-	Stack,
-	IconButton,
-	Divider,
-} from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import { Discord, Patreon, Channel, Instagram } from '../utils/constants';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import TextFieldsIcon from '@mui/icons-material/TextFields';
 
 const About = () => {
 	return (
 		<Container
 			p={3}
 			sx={{
-				overflowY: 'auto',
+				overflowY: 'scroll',
 				height: '90vh',
 				flex: 2,
-				position: 'static',
 			}}
 		>
 			<Typography
@@ -50,7 +40,7 @@ const About = () => {
 			>
 				Creating dynamic REACTIONS through great MUSIC and COMMENTARY.
 			</Typography>
-			<Box sx={{ p: 3, m: 'auto' }}>
+			<Box sx={{ p: 3 }}>
 				<Typography
 					className='body-text'
 					component='body1'
@@ -69,7 +59,7 @@ const About = () => {
 					Sessions, and much more.{' '}
 				</Typography>
 
-				<Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
+				<Box sx={{ display: 'flex', justifyContent: 'flex-start', mt: 4 }}>
 					<a href='https://tnt-store-7.creator-spring.com/'>
 						<button className='about-btn'>
 							<span className='icon'>
@@ -78,7 +68,7 @@ const About = () => {
 							<span style={{ color: 'white' }}>Buy TNT Merch</span>
 						</button>
 					</a>
-					<a href='https://tnt-store-7.creator-spring.com/'>
+					<a href={Instagram}>
 						<button className='about-btn'>
 							<span className='icon'>
 								<InstagramIcon />
@@ -86,7 +76,7 @@ const About = () => {
 							<span style={{ color: 'white' }}>Follow Us On Instagram</span>
 						</button>
 					</a>
-					<a href='https://tnt-store-7.creator-spring.com/'>
+					<a href={Channel}>
 						<button className='about-btn'>
 							<span className='icon'>
 								<YouTubeIcon />
