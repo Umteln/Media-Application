@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 import { Navbar, Feed, VideoDetail, ChannelDetail } from './components';
 import SearchBarFeed from './components/SearchFeed';
+import About from './components/About';
 
 const App = () => {
 	return (
@@ -17,6 +18,11 @@ const App = () => {
 							path={`/`}
 							exact
 							element={<Feed />}
+						/>
+						<Route
+							path={`/About`}
+							exact
+							element={<About />}
 						/>
 
 						<Route

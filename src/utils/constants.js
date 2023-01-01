@@ -4,7 +4,6 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 export const logo = '../../public/assets/images/tnt_logo.png';
 
 export const categories = [
-	{ name: 'Home', icon: <HomeIcon /> },
 	{
 		id: 'UC9ylzwwlc23B5Mn-YWeRm7g',
 		name: 'The Adventures of TNT',
