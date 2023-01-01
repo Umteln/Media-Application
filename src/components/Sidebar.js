@@ -35,6 +35,7 @@ const Sidebar = ({
 					key={category.name}
 				>
 					<span
+						className='cat-icon'
 						style={{
 							color: category.name === selectedCategory ? 'white' : '#FC1503',
 							marginRight: '15px',

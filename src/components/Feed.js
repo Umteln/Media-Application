@@ -15,7 +15,7 @@ const Feed = () => {
 
 	useEffect(() => {
 		fetchFromAPI(
-			`search?channelId=${selectedID}&part=snippet&q=${selectedCategory}`
+			`search?channelId=${selectedID}&part=snippet&q=${selectedCategory}&order=date`
 		).then((data) => {
 			setVideos(data.items);
 		});
@@ -65,7 +65,7 @@ const Feed = () => {
 							fontWeight='bold'
 							mb={2}
 							sx={{
-								color: 'white',
+								color: '#fc1503',
 							}}
 						>
 							{selectedCategory}

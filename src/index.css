@@ -170,6 +170,9 @@ a {
 	.icon {
 		color: #fff;
 	}
+	.cat-icon {
+		display: none;
+	}
 	.sidebar {
 		position: sticky;
 	}

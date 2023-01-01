@@ -21,6 +21,7 @@ const About = () => {
 				overflowY: 'auto',
 				height: '90vh',
 				flex: 2,
+				position: 'static',
 			}}
 		>
 			<Typography
