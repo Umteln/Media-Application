@@ -1,15 +1,8 @@
 import React from 'react';
-import { Divider, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import { categories } from '../utils/constants';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import TextFieldsIcon from '@mui/icons-material/TextFields';
 
-const Sidebar = ({
-	setSelectedCategory,
-	selectedCategory,
-	setSelectedID,
-	selectedID,
-}) => {
+const Sidebar = ({ setSelectedCategory, selectedCategory, setSelectedID }) => {
 	return (
 		<Stack
 			direction='row'

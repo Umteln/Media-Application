@@ -20,7 +20,7 @@ const ChannelDetail = () => {
 		fetchFromAPI(`search?channelId=${id}&part=snippet& order=date`).then(
 			(data) => setVideos(data?.items)
 		);
-	}, [id]);
+	}, [id, setDetail]);
 
 	return (
 		<Box minHeight='95vh'>

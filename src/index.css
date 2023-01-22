@@ -6,7 +6,7 @@ body {
 }
 
 .svg-back {
-	background-image: url(./assets/images/wave.svg);
+	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

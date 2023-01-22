@@ -3,7 +3,6 @@ import { RecoilRoot } from 'recoil';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 import { Navbar, Feed, VideoDetail, ChannelDetail } from './components';
-import SearchBarFeed from './components/SearchFeed';
 import About from './components/About';
 
 const App = () => {
@@ -34,11 +33,6 @@ const App = () => {
 							path={`/channel/:id`}
 							exact
 							element={<ChannelDetail />}
-						/>
-						<Route
-							path={`/search/:searchTerm`}
-							exact
-							element={<SearchBarFeed />}
 						/>
 					</Routes>
 				</Box>
