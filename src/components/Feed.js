@@ -44,14 +44,6 @@ const Feed = () => {
 					selectedID={selectedID}
 					setSelectedID={setSelectedID}
 				/>
-
-				<Typography
-					className='copyright'
-					variant='body2'
-					sx={{ mt: 1.5, color: '#ffff' }}
-				>
-					Copyright 2022 TNT Media
-				</Typography>
 			</Box>
 
 			<Box
