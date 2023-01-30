@@ -1,3 +1,37 @@
+#### TNT Videos 
+
+A video media application use to centralize videos uploaded from a customer’s YouTube channel. This application will allow users to access all the videos from the various channels ran by TNT Media.  By making all the channels available in one place, the goal is to raise the viewer retention rate, view counts, as well as, giving users access to the company’s store to increase merchandise sales. 
+
+
+#### Media Application 
+
+This application uses the YouTube API to retrieve specific content from a specific YouTube channels. This was done using JavaScript, HTML, CSS, React, Material UI, and Axios for data fetching.
+
+#### Live project
+
+https://adventuresoftnt.netlify.app
+
+## Project Screen Shots
+![image](https://user-images.githubusercontent.com/21069909/215523951-92e00a42-54e6-496a-a0a3-a8e04c202110.jpeg)
+
+![image](https://user-images.githubusercontent.com/21069909/215524064-2aa0ba2a-e930-46b1-9ead-161a49a01263.jpeg)
+
+## Reflection
+
+While working on this project, I really wanted to get a better understanding of how to utilize the YouTube API, as well as using Axios. I had never used either before this build and really was able to gain knowledge. I struggle with trying to make my fetch request for the type of videos specific for the YouTube channels I wanted to use, but after reading over the API documentation and going through a few tutorials about the process, I was able to successfully retrieve the content. 
+
+The purpose of the project was to get additional practice using APIs, responsive web design, use of Material UI components, and going through the steps of hosting an application. 
+
+-Bulleted list with other key learnings:
+
+    * Learn the use of Rapid API platform
+    * Learn media queries for various device sizes
+    * Learn how to utilize Material UI components to assist with a better 
+       building process.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
