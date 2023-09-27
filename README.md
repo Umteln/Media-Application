@@ -22,11 +22,10 @@ While working on this project, I really wanted to get a better understanding of 
 
 The purpose of the project was to get additional practice using APIs, responsive web design, use of Material UI components, and going through the steps of hosting an application. 
 
--Bulleted list with other key learnings:
 
-    * Learn the use of Rapid API platform
-    * Learn media queries for various device sizes
-    * Learn how to utilize Material UI components to assist with a better 
+    * Understand the use of Rapid API platform
+    * Grasp media queries for various device sizes
+    * Utilize Material UI components to assist with a better 
        building process.
 
 
